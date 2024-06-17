@@ -1,7 +1,7 @@
 // routes/screenRoutes.js
 
 import express from 'express';
-import { getScreens, getScreenById, createScreen, updateScreen, deleteScreen } from '../controllers/_screen.js';
+import { getScreens, getScreenById, createScreen, updateScreen, deleteScreen } from '../controllers/_Screen.js';
 import auth from '../middleware/auth.js';
 
 const router = express.Router();
