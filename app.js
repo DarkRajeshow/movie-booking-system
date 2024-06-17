@@ -55,13 +55,6 @@ app.use((err, req, res, next) => {
   });
 });
 
-app.get("/", async (req, res) => {
-  res.status(200).json({
-    message: "Hello Guys chay pi lo...",
-  });
-});
-
-
 const connectDB = () => {
   mongoose.set("strictQuery", true);
   mongoose
